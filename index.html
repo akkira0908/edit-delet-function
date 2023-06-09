@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 mt-3">
+                <div class="card ">
+                    <div class="card-header bg-info">
+                        <h1 style="color: white; text-align:center;">Crud Progress</h1>
+                    </div>
+                    <div class="card-body">
+                        <input type="text" placeholder="Name"class="form-control" id="name-first">
+                        <input type="text" placeholder="How much"class="form-control mt-3" id="how-much">
+                        <input type="color" placeholder="Color" class="form-control mt-3" id="color-product">
+                    </div>
+                    <div class="card-footer bg-info">
+                        <button id="button-add" class="btn btn-success block ml-auto" onclick="addProuduct()">Add</button>
+                        <button id="button-add" class="btn btn-danger" onclick="allDelete()">All delete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="row" id="result">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
